@@ -1,0 +1,31 @@
+{
+    "name": "web_pack_simplon3",
+    "version": "1.0.0",
+    "description": "first exercice webpack",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --watch",
+        "serve": "webpack-dev-server  --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kadiytoure/web_pack_simplon3.git"
+    },
+    "keywords": [
+        "webpack"
+    ],
+    "author": "kadiy_simplon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kadiytoure/web_pack_simplon3/issues"
+    },
+    "homepage": "https://github.com/kadiytoure/web_pack_simplon3#readme",
+    "dependencies": {
+        "jquery": "^3.2.1"
+    },
+    "devDependencies": {
+        "webpack": "^3.5.5",
+        "webpack-dev-server": "^2.7.1"
+    }
+}
